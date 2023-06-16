@@ -1,0 +1,61 @@
+spacing         = 2
+padding         = 5
+hide_ascii      = true
+separator       = "~>"
+key_color       = "Blue"
+separator_color = "Yellow"
+
+[palette]
+type            = "Light"
+glyph           = " ● "
+visible         = true
+
+# [bar]
+# glyph           = "●"
+# symbol_open     = '('
+# symbol_close    = ')'
+# visible         = false
+# hide_delimiters = true
+
+[box]
+title           = " zephyr@arch "
+border          = "rounded"
+visible         = true
+
+# [box.inner_margin]
+# x               = 5
+# y               = 5
+
+[box.inner_margin]
+x               = 2
+y               = 1
+
+# [custom_ascii]
+# color           = "Yellow"
+
+# [randomize]
+# key_color       = false
+# separator_color = false
+# pool            = "base"
+
+[keys]
+host            = ""
+kernel          = ""
+battery         = "󱊣"
+os              = "󰻀"
+de              = "󰧨"
+wm              = ""
+distro          = "󰻀"
+terminal        = "󰄛"
+shell           = "󰨊"
+packages        = "󰏖"
+uptime          = ""
+memory          = ""
+machine         = "󰇅"
+local_ip        = "󰌗"
+backlight       = "󰃟"
+resolution      = "󰢹"
+cpu_load        = "󰘚"
+cpu             = ""
+gpu             = "󰳨"
+disk_space      = "󰋊"

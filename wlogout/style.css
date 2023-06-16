@@ -1,0 +1,93 @@
+* {
+	background-image: none;
+}
+window {
+	font-family: FiraCode Nerd Font Mono;
+	font-size: 11pt;
+	color: #f6c177;
+	background-color: rgba(38,35,58, 0.8);
+}
+button {
+    color: #908caa;
+	background-color: rgba(25,23,36,0.85);
+	border-style: Solid;
+	border-width: 5px;
+	border-radius: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15%;
+	margin: 20px;
+}
+
+button:focus{
+	background-color: rgba(25,23,36,0.85);
+	outline-style: none;
+}
+
+button:hover#lock {
+	background-color: #403d52;
+	color: #ebbcba;
+	border-color: #908caa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#suspend {
+	background-color: #403d52;
+	color: #ebbcba;
+	border-color: #908caa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#shutdown {
+	background-color: #403d52;
+	color: #ebbcba;
+	border-color: #908caa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#reboot {
+	background-color: #403d52;
+	color: #ebbcba;
+	border-color: #908caa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
