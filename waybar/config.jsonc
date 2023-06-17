@@ -1,5 +1,5 @@
 [{
-    "output": "eDP-2",
+    "output": "eDP-1",
     "layer": "top",
     "position": "bottom",
     "mod": "dock",
@@ -103,7 +103,7 @@
             // "default": ""
           },
           "persistent_workspaces": {
-            "1": ["eDP-2"]
+            "1": ["eDP-1"]
           }
     },
 
