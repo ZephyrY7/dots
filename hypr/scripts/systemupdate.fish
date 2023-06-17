@@ -1,9 +1,9 @@
 #!/usr/bin/env fish
 
 # Check release
-# if not test -f /etc/arch-release
-#     exit 0
-# end
+if not test -f /etc/arch-release
+    exit 0
+end
 
 # Trigger upgrade
 if test "$argv[1]" = "pacup"

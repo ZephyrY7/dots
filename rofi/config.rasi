@@ -21,7 +21,7 @@ window {
     padding:                     0px;
     border:                      4px;
     border-radius:               40px;
-    border-color:                #f5c2e7ff;
+    border-color:                #89b4faff;
     background-color:            transparent;
 }
 mainbox {

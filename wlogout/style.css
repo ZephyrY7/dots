@@ -9,8 +9,9 @@ window {
 }
 button {
     color: #908caa;
-	background-color: rgba(25,23,36,0.85);
+	background-color: #181825;
 	border-style: Solid;
+	border-color: #6c7086;
 	border-width: 5px;
 	border-radius: 40px;
 	background-repeat: no-repeat;
@@ -20,14 +21,14 @@ button {
 }
 
 button:focus{
-	background-color: rgba(25,23,36,0.85);
+	background-color: #181825;
 	outline-style: none;
 }
 
 button:hover#lock {
-	background-color: #403d52;
-	color: #ebbcba;
-	border-color: #908caa;
+	background-color: #181825;
+	color: #f5c2e7;
+	border-color: #89b4fa;
 	outline-style: none;
 	background-size: 20%;
 	border-radius: 20px;
@@ -38,9 +39,9 @@ button:hover#lock {
 }
 
 button:hover#suspend {
-	background-color: #403d52;
-	color: #ebbcba;
-	border-color: #908caa;
+	background-color: #181825;
+	color: #f5c2e7;
+	border-color: #89b4fa;
 	outline-style: none;
 	background-size: 20%;
 	border-radius: 20px;
@@ -51,9 +52,9 @@ button:hover#suspend {
 }
 
 button:hover#shutdown {
-	background-color: #403d52;
-	color: #ebbcba;
-	border-color: #908caa;
+	background-color: #181825;
+	color: #f5c2e7;
+	border-color: #89b4fa;
 	outline-style: none;
 	background-size: 20%;
 	border-radius: 20px;
@@ -64,9 +65,9 @@ button:hover#shutdown {
 }
 
 button:hover#reboot {
-	background-color: #403d52;
-	color: #ebbcba;
-	border-color: #908caa;
+	background-color: #181825;
+	color: #f5c2e7;
+	border-color: #89b4fa;
 	outline-style: none;
 	background-size: 20%;
 	border-radius: 20px;

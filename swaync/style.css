@@ -31,6 +31,7 @@
 @define-color highlightLow  #1e1e2e;
 @define-color highlightMed  #181825;
 @define-color highlightHigh #11111b;
+@define-color blue #89b4fa;
 
 *{
   font-family: FiraCode Nerd Font Mono;
@@ -200,7 +201,7 @@
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.7),
     0 2px 6px 2px rgba(0, 0, 0, 0.3);
   color: @text;
-  border: 4px solid @rose;
+  border: 4px solid @blue;
 }
 
 .control-center-list {
