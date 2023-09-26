@@ -1,0 +1,120 @@
+// Config //
+configuration {
+	modi:                        "drun";
+	show-icons:                  false;
+	drun-display-format:         "{name}";
+	window-format:               "{w}{t}";
+	font:                        "FiraCode Nerd Font Mono 11";
+	icon-theme:                  "papirus-dark";
+}
+
+@theme "~/.config/rofi/catppuccin_mocha.rasi"
+
+
+// Main //
+window {
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0px;
+    padding:                     0px;
+    border:                      4px;
+    border-radius:               40px;
+    border-color:                #89b4faff;
+    background-color:            transparent;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    orientation:                 horizontal;
+    children:                    [  "inputbar" , "listbox" ];
+    background-color:            transparent;
+}
+
+
+// Inputs //
+inputbar {
+    enabled:                     false;
+}
+entry {
+    enabled:                     false;
+}
+
+
+// Modes //
+mode-switcher{
+    enabled:                     false;
+}
+
+
+// Lists //
+listbox {
+    spacing:                     0px;
+    padding:                     50px;
+	children:                    [ "listview" ];
+	background-color:            @background;
+}
+listview {
+    enabled:                     true;
+    columns:                     1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                false;
+    fixed-columns:               false;
+    cursor:                      "default";
+	background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     10px;
+    border-radius:               20px;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+element normal.normal {
+    background-color:            transparent;
+    text-color:                  @normal-foreground;
+}
+element normal.urgent {
+    background-color:            @urgent-background;
+    text-color:                  @urgent-foreground;
+}
+element normal.active {
+    background-color:            @active-background;
+    text-color:                  @active-foreground;
+}
+element selected.normal {
+    background-color:            @selected-normal-background;
+    text-color:                  @selected-normal-foreground;
+}
+element selected.urgent {
+    background-color:            @selected-urgent-background;
+    text-color:                  @selected-urgent-foreground;
+}
+element selected.active {
+    background-color:            @selected-active-background;
+    text-color:                  @selected-active-foreground;
+}
+element-icon {
+    size:                        14px;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}

@@ -1,0 +1,55 @@
+daemonize
+show-failed-attempts
+ignore-empty-password
+clock
+timestr=%R
+datestr=%e %B
+
+screenshot
+effect-vignette=0.2:0.75
+effect-blur=20x3
+fade-in="5"
+color=9ccfd8
+font=FiraCode Nerd Font Mono
+
+indicator
+indicator-radius=90
+indicator-thickness=5
+
+key-hl-color=89b4fa
+
+separator-color=6e6a86
+
+inside-color=191724
+inside-clear-color=21202e
+inside-caps-lock-color=21202e
+inside-ver-color=21202e
+inside-wrong-color=21202e
+
+ring-color=908caa
+ring-clear-color=c4a7e7
+ring-caps-lock-color=ea9d34
+ring-ver-color=286983
+ring-wrong-color=f38ba8
+
+line-color=26233a
+line-clear-color=26233a
+line-caps-lock-color=26233a
+line-ver-color=26233a
+line-wrong-color=26233a
+
+text-color=908caa
+text-clear-color=21202e
+text-ver-color=21202e
+text-wrong-color=21202e
+
+indicator-caps-lock
+disable-caps-lock-text
+bs-hl-color=9ccfd8
+caps-lock-key-hl-color=f6c177
+caps-lock-bs-hl-color=ebbcba
+text-caps-lock-color=e0def4
+
+; grace=1
+; grace-no-mouse
+; grace-no-touch

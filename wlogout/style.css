@@ -1,0 +1,94 @@
+* {
+	background-image: none;
+}
+window {
+	font-family: FiraCode Nerd Font Mono;
+	font-size: 11pt;
+	color: #f6c177;
+	background-color: rgba(38,35,58, 0.8);
+}
+button {
+    color: #908caa;
+	background-color: #181825;
+	border-style: Solid;
+	border-color: #6c7086;
+	border-width: 5px;
+	border-radius: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15%;
+	margin: 20px;
+}
+
+button:focus{
+	background-color: #181825;
+	outline-style: none;
+}
+
+button:hover#lock {
+	background-color: #181825;
+	color: #74c7ec;
+	border-color: #89b4fa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#suspend {
+	background-color: #181825;
+	color: #74c7ec;
+	border-color: #89b4fa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#shutdown {
+	background-color: #181825;
+	color: #74c7ec;
+	border-color: #89b4fa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+button:hover#reboot {
+	background-color: #181825;
+	color: #74c7ec;
+	border-color: #89b4fa;
+	outline-style: none;
+	background-size: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	font-size: 14pt;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.45,0,.5,2);
+}
+
+#lock {
+    background-image: image(url("./lock.png"), url("./lock-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./sleep.png"), url("./sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./power.png"), url("./power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./restart.png"), url("./restart-hover.png"));
+}
